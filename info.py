@@ -53,14 +53,14 @@ STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQe
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/cd16a80421a63c71c00a5.mp4')).split() #use a gif video 🫠
+PICS = (environ.get('PICS', 'https://graph.org/file/026c5ed5a3e37f0279f28.jpg')).split() #use a gif video 🫠
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6246830040').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002021217229').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002075903430').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5397984467').split()]
@@ -94,7 +94,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/kungfupanda4_movies')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/hdhindibackup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/desidude4u_open/129')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Hey ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', '')
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002080693695'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002080693695'))
