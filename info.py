@@ -53,7 +53,7 @@ STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQe
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/977d10c0aeb1048b0f240.mp4')).split() #use a gif video 🫠
+PICS = (environ.get('PICS', 'https://graph.org/file/7d585c21d1ae0ca897e25.mp4')).split() #use a gif video 🫠
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/eeb567c455fc94ec95d38.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
