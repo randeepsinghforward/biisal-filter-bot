@@ -3,7 +3,6 @@ class script(object):
     
 ✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs.
 ✦ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
-
 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Biisal">Bɪɪsᴀʟ & Gᴀʀᴜᴅᴀ</a></b> 😏</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
