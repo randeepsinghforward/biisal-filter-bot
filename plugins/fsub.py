@@ -15,6 +15,8 @@ async def f_sub_cmd(bot, message):
        return await bot.leave_chat(message.chat.id)  
     if message.from_user.id!=user_id:
        return await m.edit(f"Only {user_name} can use this command 😁")
+    if not verified:
+       return await m.edit("This chat is not verified!\nuse /verify")        
     try:
        f_sub = int(message.command[-1])
     except:
