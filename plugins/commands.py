@@ -65,7 +65,7 @@ async def ask_command_handler(bot, message):
     user_cooldowns[coolDownUser] = current_time
     return
 
-async def aiTextSend(message, question):
+async def aiTextSend(message, question, bot):
     thinkStc = await message.reply_sticker(sticker=random.choice(STICKERS_IDS))
     userMention = message.from_user.mention()
     try:
